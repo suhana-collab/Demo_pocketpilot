@@ -1,0 +1,334 @@
+<!doctype html>
+<html lang="en"><head><script>window["__codeletBootstrap__"]=JSON.parse('{"A":"A","B":"20261014-22-b279a9e","C":{"Abril Fatface":"YACgEZbkUVE,0","Albert Sans":"YAHO2HRfeh4,0","Alfa Slab One":"YACgEYS9sJU,0","Anton":"YACgEcYqQ-A,0","Archivo Black":"YACgEZulLoA,0","Archivo":"YAHO2-t-jNE,0","Arial":"YAGyDvJ_4Ts,0","Baloo 2":"YAHO2IcQUcM,0","Barlow Condensed":"YAFdJljEuFc,0","Barlow":"YAFdJsyuOPM,1","Bebas Neue":"YACgESME5ew,0","Bricolage Grotesque":"YAFyMcdwzpc,0","Cairo":"YAFdtXpDzlQ,0","Canva Sans":"YAFdJjTk5UU,1","Caveat":"YALBs2ploWQ,0","Cinzel":"YACgEeV8bIQ,0","Cormorant Garamond":"YAFdJhX-538,0","Courier New":"YAGzXiGs0_8,0","Courier Prime":"YAD1aFjegN8,0","DM Sans":"YAD1aU3sLnI,0","DM Serif Display":"YAD1aYG82rc,0","Figtree":"YAHO2b-mV7A,0","Forum":"YACgEcnnqB4,0","Fraunces":"YAFdJpU7Kkk,0","Fredoka":"YACgEZml080,0","Georgia":"YAGzXkO0pEM,0","Hanken Grotesk":"YAHO2VB9G0I,0","Helvetica":"YAFcf7zkXN0,0","IBM Plex Mono":"YAFdJkmvhGI,0","IBM Plex Sans":"YAFdJgT0SHI,0","Impact":"YAFcfnjI7Vk,0","Instrument Sans":"YAHO2bKyaSQ,0","Instrument Serif":"YAHFeOnZNEk,0","Inter":"YAFdJvSyp_k,3","Italiana":"YAHO2Toik_w,0","Jacques Francois":"YAHO2a5g66Q,0","JetBrains Mono":"YAFdJksXcAk,0","Josefin Sans":"YAFdJjvw9Ps,0","Karla":"YAHO2V2NSXM,0","Lato":"YAFdJuFCnaw,0","Libre Baskerville":"YACgEUFdPdA,0","Libre Caslon Display":"YAHO2XhLmt0,0","Lobster":"YAD8SnSjSFI,0","Lora":"YACgEXvxf8Q,0","Manrope":"YAHO2b2feC4,0","Merriweather":"YACgEXvHxxs,0","Montserrat":"YAFdtQi73Xs,0","Noto Sans JP":"YAFdJiHXlcI,0","Noto Sans KR":"YAGsojZj-RQ,0","Nunito Sans":"YAFdtQJYB9w,1","Nunito":"YAFdJoNRMmU,1","Oleo Script":"YACgEQQ14jI,0","Open Sans":"YAFdJt8dAY0,1","Oswald":"YACgEQY10lw,0","Outfit":"YAHO2nVlg14,0","Pacifico":"YADLjORQ1u4,0","Playfair Display":"YAFdJhem5V8,1","Plus Jakarta Sans":"YAHO2gdhi18,0","Poppins":"YAFdJjbTu24,1","Press Start 2P":"YAFyGr-8pmQ,0","Public Sans":"YAFdJj8NdaU,1","Quicksand":"YAFdJpYtCxE,1","Raleway":"YAFdJhmxbVQ,1","Roboto Slab":"YAFdJswIKAg,0","Rockwell":"YAFcfyVZnN0,0","Rye":"YACgEdQP21k,0","STIX Two Text":"YAHO2joycuk,0","Sarabun":"YAFdJssSnME,0","Schibsted Grotesk":"YAHO2sWydRk,0","Segoe UI":"YAHNdRD1Klw,0","Source Sans 3":"YAG4lO1Mj10,0","Space Grotesk":"YAHO2sjPCSM,0","Space Mono":"YADW1-vpsoc,0","Spectral":"YAHO2rVUHIM,0","Times New Roman":"YAGzXW3gftg,0","Trebuchet MS":"YAFcfrglpVA,0","Ubuntu":"YACgERDU--Q,0","Verdana":"YAGzXTctYtQ,0","Work Sans":"YAGXhLOKv44,0","Yellowtail":"YACgEYG4kG4,0"}}');</script><script src="/_sdk/05db820ba1544614.telemetry_sdk.js" integrity="sha512-a7JzkQDDcioSXpM61nxTfeRW7PcxWQy5+BrhyeTFmQFsXJ+Gncm0y50u7fTA7qOPegFnRgqCfa0mGUOK1yjDWQ=="></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PocketPilot</title>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&amp;family=Fraunces:opsz,wght@9..144,600;9..144,700&amp;display=swap" rel="stylesheet">
+  <style>
+    :root{--ink:#29213b;--muted:#746b87;--line:#e5dff0;--paper:#faf8fd;--lavender:#eee8f8;--purple:#7052a0;--dark:#563c83}
+    *{box-sizing:border-box}body{margin:0;width:100%;font-family:"DM Sans",sans-serif;color:var(--ink);background:var(--paper)}
+    button,input,select{font:inherit}button{cursor:pointer}button:disabled{opacity:.55;cursor:wait}
+    :focus-visible{outline:3px solid #a589d2;outline-offset:3px}
+    [hidden]{display:none!important}
+    .entry{width:100%;min-height:calc(100 * min(var(--vh, 1vh), 1vh));display:grid;place-items:center;padding:28px;background:radial-gradient(circle at 80% 15%,#e9dff8 0,transparent 38%),var(--paper)}
+    .entry-card{width:min(100%,450px);padding:38px;background:#fff;border:1px solid var(--line);border-radius:24px;box-shadow:0 22px 65px #37205814}
+    .entry .brand{justify-content:center;margin-bottom:26px}.entry h1{text-align:center;font-size:34px;margin:0 0 8px}.entry p{text-align:center;color:var(--muted);line-height:1.5;margin:0 0 28px}
+    .brand{display:flex;align-items:center;gap:11px}.mark{width:38px;height:38px;border-radius:12px;background:var(--purple);color:white;display:grid;place-items:center;flex:none}
+    .brand-name,h1,h2{font-family:Fraunces,serif;letter-spacing:-.04em}.brand-name{font-size:21px;font-weight:700}
+    .app-shell{width:100%;min-height:calc(100 * min(var(--vh, 1vh), 1vh));display:flex}
+    .sidebar{width:258px;flex:0 0 258px;background:#fdfbff;border-right:1px solid var(--line);padding:26px 16px;display:flex;flex-direction:column}
+    .sidebar .brand{padding:0 10px 28px}.nav-caption{padding:0 11px 9px;text-transform:uppercase;letter-spacing:.11em;font-size:11px;font-weight:700;color:#9388a5}
+    .nav-item{width:100%;border:0;background:transparent;display:flex;align-items:center;gap:12px;padding:11px 12px;margin:2px 0;color:#716784;text-align:left;border-radius:12px;font-size:14px;font-weight:600}
+    .nav-item:hover,.nav-item.active{color:var(--dark);background:var(--lavender)}.nav-item.active{box-shadow:inset 3px 0 var(--purple)}
+    .side-note{margin-top:auto;background:#f0ebf8;border:1px solid #e4d9f1;border-radius:16px;padding:14px;color:#59466e;font-size:12px;line-height:1.45}
+    .main-area{min-width:0;flex:1;padding:0 34px 36px}.topbar{min-height:86px;display:flex;align-items:center;justify-content:space-between;gap:12px;border-bottom:1px solid var(--line)}
+    .topbar h1{font-size:27px;margin:0}.top-right{display:flex;align-items:center;gap:12px;font-weight:700;font-size:13px}
+    .avatar{width:36px;height:36px;border-radius:50%;background:#e8def4;color:var(--purple);display:grid;place-items:center}
+    .content{max-width:1260px;margin:auto;padding-top:30px}.intro{margin-bottom:22px}.eyebrow{color:var(--purple);font-size:12px;font-weight:700;letter-spacing:.1em;text-transform:uppercase}
+    .intro h2{font-size:32px;margin:5px 0}.intro p,.muted{color:var(--muted)}.intro p{margin:0}
+    .grid{display:grid;gap:16px}.four{grid-template-columns:repeat(4,minmax(0,1fr))}.three{grid-template-columns:repeat(3,minmax(0,1fr))}.two{grid-template-columns:repeat(2,minmax(0,1fr))}
+    .card{background:#fff;border:1px solid var(--line);border-radius:18px;padding:20px;box-shadow:0 5px 18px #29213b08}.card h3{margin:0 0 13px;font-size:17px}
+    .metric-label,.small{font-size:13px;color:var(--muted)}.metric{font:600 29px Fraunces,serif;letter-spacing:-.04em;margin:8px 0 5px}.small{line-height:1.5}
+    .featured{background:linear-gradient(135deg,#7052a0,#8c70b7);color:#fff;border:0}.featured .metric-label,.featured .small{color:#f1eafa}.featured .metric{font-size:38px}
+    .section-head{display:flex;justify-content:space-between;align-items:end;gap:12px;margin:26px 0 12px}.section-head h3{margin:0;font-size:17px}.section-head p{margin:3px 0 0;color:var(--muted);font-size:13px}
+    .row{display:flex;justify-content:space-between;align-items:center;gap:12px}.list-row{padding:13px 0;border-bottom:1px solid #eeeaf3}.list-row:last-child{border-bottom:0}
+    .badge{display:inline-flex;border-radius:99px;padding:5px 9px;background:#f1eafb;color:var(--dark);font-size:11px;font-weight:700}.progress{height:8px;border-radius:99px;background:#ede8f3;overflow:hidden}.progress span{display:block;height:100%;background:var(--purple);border-radius:inherit}
+    .btn{border:0;border-radius:11px;padding:10px 14px;font-size:13px;font-weight:700;transition:background .2s,transform .2s}.btn:hover{transform:translateY(-1px)}.primary{color:#fff;background:var(--purple)}.primary:hover{background:var(--dark)}.secondary{color:var(--dark);background:var(--lavender)}.plain{color:var(--muted);background:#fff;border:1px solid var(--line)}
+    .field label{display:block;margin:0 0 6px;font-size:12px;font-weight:700;color:#645775}.field input,.field select,.chat-input{width:100%;border:1px solid #ddd4e9;border-radius:10px;background:#fff;padding:10px 11px;color:var(--ink)}
+    .form-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px;align-items:end}.notice{padding:13px 15px;border-left:4px solid #e5c978;background:#f7f2fb;color:#5b4c70;border-radius:10px;font-size:13px;line-height:1.5}
+    .quick{text-align:left;min-height:125px}.quick svg{color:var(--purple);margin-bottom:12px}.quick strong,.quick small{display:block}.quick small{color:var(--muted);margin-top:5px}
+    .tabs{display:flex;flex-wrap:wrap;gap:5px;padding:4px;background:var(--lavender);border-radius:12px}.tab{border:0;background:transparent;border-radius:8px;padding:8px 12px;color:var(--muted);font-weight:700;font-size:13px}.tab.active{background:#fff;color:var(--dark)}
+    .chat-bubble{max-width:85%;padding:12px 14px;margin:10px 0;border-radius:15px;background:var(--lavender);font-size:14px}.chat-bubble.user{margin-left:auto;background:var(--purple);color:#fff}
+    .mobile-nav{display:none}.toast{position:fixed;right:20px;bottom:20px;background:var(--ink);color:#fff;border-radius:12px;padding:12px 16px;z-index:30;max-width:min(370px,90vw)}
+    @media(max-width:900px){.sidebar{display:none}.main-area{padding:0 18px 92px}.four,.three{grid-template-columns:repeat(2,minmax(0,1fr))}.form-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.mobile-nav{display:flex;position:fixed;bottom:0;left:0;right:0;z-index:10;background:#fff;border-top:1px solid var(--line);overflow:auto;padding:7px;gap:4px}.mobile-nav button{flex:1;min-width:72px;border:0;background:transparent;color:var(--muted);font-size:10px;font-weight:700;display:grid;justify-items:center;gap:3px;padding:5px}.mobile-nav button.active{color:var(--purple)}}
+    @media(max-width:580px){.entry-card{padding:27px 22px}.main-area{padding-left:16px;padding-right:16px}.topbar{min-height:72px}.topbar h1{font-size:22px}.top-right span{display:none}.intro h2{font-size:27px}.four,.three,.two,.form-grid{grid-template-columns:1fr}.card{padding:16px}.row.wrap{flex-wrap:wrap}}
+  </style>
+  <script src="https://cdn.tailwindcss.com/3.4.17" type="text/javascript"></script>
+  <script src="https://cdn.jsdelivr.net/npm/lucide@0.577.0/dist/umd/lucide.min.js" type="text/javascript"></script>
+  <script src="/_sdk/570d53629f0b998d.data_sdk.js" type="text/javascript" integrity="sha512-JEN39+V+Nvv9ZZOVS8vNk1iA9ErZJHTdgOw9KzPuMiK7m0I+KPEr/wmTnCFIQVsDjCZgJWfGnFi1IQh2Io2qyA=="></script>
+  <script src="/_sdk/0b63fb8940df03d4.editing_sdk.js" type="text/javascript" integrity="sha512-fFkkekAA7XKU9UcNO+7a7lGi1SDVYUdIo1lpZS9YpfVovu1WAj3C/MEr/w8zt6Jwq6OKflaYkwf4eOUpMYGz9A=="></script>
+  <script src="/_sdk/f195026a424c1f85.resizing_sdk.js" type="text/javascript" integrity="sha512-8On4Z+AXh1abEzZJ9Dbn9wOvFg+k1LsAaAzKGQ7LlfgXajZ9xEmZaZ1QVzv0AWhCZtCsEpWSOG9DgLri06TS7A=="></script>
+ </head>
+ <body data-template-id="__page-root" class="w-full" style="background: rgb(250, 248, 253);">
+  <main id="entry" class="entry">
+   <section data-template-id="entry-card" class="canva-card entry-card" aria-labelledby="entry-heading" style="background: rgb(255, 255, 255);">
+    <div class="brand">
+     <div data-template-id="entry-mark" class="canva-tag mark" style="background: rgb(112, 82, 160); color: rgb(255, 255, 255);">
+      <i data-lucide="graduation-cap" width="20"></i>
+     </div><span data-template-id="entry-brand" class="canva-text brand-name" style="color: rgb(41, 33, 59); font-weight: 700; font-style: normal; font-size: 16px;">PocketPilot</span>
+    </div>
+    <h1 data-template-id="entry-heading" id="entry-heading" class="canva-text" style="color: rgb(41, 33, 59); font-weight: 700; font-style: normal; font-size: 32px;">Welcome to PocketPilot</h1>
+    <p data-template-id="entry-description" class="canva-text" style="color: rgb(116, 107, 135); font-weight: 400; font-style: normal; font-size: 16px;">Manage your money smarter. Make better financial decisions.</p>
+    <form id="entry-form">
+     <div class="field">
+      <label data-template-id="entry-email-label" class="canva-text" for="entry-email" style="color: rgb(100, 87, 117); font-weight: 700; font-style: normal; font-size: 16px;">Email Address</label><input id="entry-email" type="email" autocomplete="email" required="" placeholder="you@example.com">
+     </div><button data-template-id="entry-button" class="canva-button btn primary w-full mt-5" type="submit" style="background: rgb(112, 82, 160); color: rgb(255, 255, 255); font-weight: 700; font-style: normal; font-size: 16px;">Continue to demo</button>
+    </form>
+    <p data-template-id="entry-disclosure" class="canva-text small mt-5 mb-0" style="color: rgb(116, 107, 135); font-weight: 400; font-style: normal; font-size: 13px;">Demo access only. This screen does not create or verify an account.</p>
+   </section>
+  </main>
+  <div id="application" class="app-shell" hidden="">
+   <aside class="sidebar" aria-label="Primary navigation">
+    <div class="brand">
+     <div data-template-id="sidebar-mark" class="canva-tag mark" style="background: rgb(112, 82, 160); color: rgb(255, 255, 255);">
+      <i data-lucide="graduation-cap" width="20"></i>
+     </div><span data-template-id="sidebar-brand" class="canva-text brand-name" style="color: rgb(41, 33, 59); font-weight: 700; font-style: normal; font-size: 16px;">PocketPilot</span>
+    </div>
+    <div data-template-id="nav-caption" class="canva-text nav-caption" style="color: rgb(147, 136, 165); font-weight: 700; font-style: normal; font-size: 11px; letter-spacing: 0.1rem;">Your money space</div>
+    <nav id="sidebar-nav" aria-label="Application pages"></nav>
+    <div data-template-id="sidebar-note" class="canva-banner side-note" style="background: rgb(240, 235, 248); color: rgb(89, 70, 110); font-weight: 400; font-style: normal; font-size: 12px; line-height: 1.45;">Build a clearer money picture, explore your options, and choose your next step with confidence.</div>
+   </aside>
+   <div class="main-area">
+    <header class="topbar">
+     <h1 id="page-title"></h1>
+     <div class="top-right">
+      <div class="avatar">
+       <i data-lucide="user-round" width="18"></i>
+      </div><span id="header-name"></span>
+     </div>
+    </header>
+    <main id="app-content" class="content" aria-live="polite"></main>
+   </div>
+   <nav id="mobile-nav" class="mobile-nav" aria-label="Mobile application pages"></nav>
+  </div>
+  <div id="toast" class="toast" role="status" hidden=""></div>
+  <script>
+    const pages=[
+      ['dashboard','layout-dashboard','Dashboard'],['money','wallet-cards','My Money'],
+      ['plan','notebook-pen','Budget & Plan'],['goals','flag','Goals'],
+      ['spendwise','shopping-bag','SpendWise'],['future','arrow-right-left','FutureImpact'],
+      ['assistant','message-circle','AI Assistant'],['learn','lightbulb','Insights / Learning'],
+      ['profile','user-round','Profile & Settings']
+    ];
+    let records=[],view='dashboard',entered=false,ready=false,ledgerType='expense',comparison='now',editingProfile=false,entryEmail='';
+    const defaults={income:18000,expenses:11200,savings:24000,reserve:6000};
+    const $=id=>document.getElementById(id);
+    const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+    const rupees=n=>'₹'+Math.max(0,Math.round(Number(n)||0)).toLocaleString('en-IN');
+    const dateLabel=s=>s&&Number.isFinite(Date.parse(s))?new Date(s+'T00:00:00').toLocaleDateString('en-IN',{day:'numeric',month:'short',year:'numeric'}):'No date';
+    const type=t=>records.filter(r=>r.record_type===t);
+    const setting=(key,fallback='')=>type('setting').find(r=>r.category===key)?.settings_value||fallback;
+    const profileValue=(key,fallback)=>{const v=type('money_profile').find(r=>r.category===key);return v?Number(v.amount):fallback};
+    const personal=(key,fallback='')=>setting('personal_'+key,fallback);
+    const displayName=()=>personal('name','Aanya Sharma');
+    const firstName=()=>displayName().trim().split(/\s+/)[0]||'there';
+    function totals(){
+      const income=type('income').length?type('income').reduce((n,r)=>n+Number(r.amount||0),0):profileValue('income',defaults.income);
+      const expenses=type('expense').length?type('expense').reduce((n,r)=>n+Number(r.amount||0),0):profileValue('expenses',defaults.expenses);
+      const upcoming=type('upcoming').reduce((n,r)=>n+Number(r.amount||0),0);
+      return {income,expenses,upcoming,savings:profileValue('savings',defaults.savings),reserve:profileValue('reserve',defaults.reserve),available:Math.max(0,income-expenses-upcoming)};
+    }
+    const mainGoal=()=>type('goal')[0]||{label:'New laptop',saved_amount:18000,target_amount:45000,target_date:'2027-06-30'};
+    const scenario=()=>type('scenario')[0]||{label:'Wireless headphones',amount:2000};
+    function toast(message){const el=$('toast');el.textContent=message;el.hidden=false;clearTimeout(toast.timer);toast.timer=setTimeout(()=>el.hidden=true,4000)}
+    function nav(){
+      const make=(compact)=>pages.map(([id,icon,label])=>`<button type="button" class="${compact?'':'nav-item '}${view===id?'active':''}" data-page="${id}" aria-label="${esc(label)}" ${view===id?'aria-current="page"':''}><i data-lucide="${icon}" width="18"></i>${compact?`<span>${esc(label)}</span>`:`<span>${esc(label)}</span>`}</button>`).join('');
+      $('sidebar-nav').innerHTML=make(false);$('mobile-nav').innerHTML=make(true);
+    }
+    function go(id){if(!pages.some(p=>p[0]===id)&&id!=='ledger')return;view=id;editingProfile=false;render();window.scrollTo({top:0,behavior:'smooth'})}
+    function intro(k,title,description){return `<section class="intro"><div class="eyebrow">${k}</div><h2>${title}</h2><p>${description}</p></section>`}
+    function metric(label,value,note){return `<article class="card"><div class="metric-label">${label}</div><div class="metric">${value}</div><div class="small">${note}</div></article>`}
+    function field(label,id,value='',kind='text',required=false){return `<div class="field"><label for="${id}">${label}</label><input id="${id}" type="${kind}" value="${esc(value)}" ${required?'required':''} ${kind==='number'?'min="0" step="0.01"':''}></div>`}
+    function goalCard(g){
+      const pct=Math.min(100,Math.round(100*Number(g.saved_amount||0)/Math.max(1,Number(g.target_amount||1))));
+      return `<article class="card"><span class="badge">${esc(g.category||'Personal goal')}</span><h3 style="margin:12px 0 3px">${esc(g.label)}</h3><div class="metric">${rupees(g.saved_amount)} <span class="small">of ${rupees(g.target_amount)}</span></div><div class="progress"><span style="width:${pct}%"></span></div><div class="row wrap" style="margin-top:12px"><span class="small">${pct}% saved · ${dateLabel(g.target_date)}</span>${g.__backendId?`<button class="btn secondary" data-add-goal="${esc(g.__backendId)}">Add ₹500</button>`:''}</div></article>`
+    }
+    function dashboard(){
+      const t=totals(),g=mainGoal();
+      return `${intro('Welcome back, '+esc(firstName()),'A clear view of your money, one decision at a time.','Your money picture helps you practise confident choices.')}
+      <div class="grid four">${metric('Available to spend',rupees(t.available),'After this month’s commitments')}${metric('Current savings',rupees(t.savings),'Including goal money')}${metric('Monthly income',rupees(t.income),'From your income sources')}${metric('Monthly expenses',rupees(t.expenses),'Your regular spending')}</div>
+      <div class="grid two" style="margin-top:16px"><article class="card featured"><div class="metric-label">Safe to spend this month</div><div class="metric">${rupees(t.available)}</div><p class="small">After regular expenses and upcoming commitments.</p></article>${goalCard(g)}</div>
+      <div class="grid two" style="margin-top:16px"><article class="card"><div class="row"><h3>Upcoming commitments</h3><button class="btn secondary" data-go="money">Manage</button></div>${type('upcoming').slice(0,3).map(r=>`<div class="row list-row"><div><strong>${esc(r.label)}</strong><div class="small">${dateLabel(r.date)}</div></div><strong>${rupees(r.amount)}</strong></div>`).join('')||'<p class="small">No upcoming commitments added.</p>'}</article><article class="card"><span class="badge">Personal insight</span><h3 style="margin-top:14px">Your upcoming costs are accounted for.</h3><p class="small">Your safe-to-spend amount offers a calmer starting point for everyday decisions.</p><button class="btn secondary" data-go="spendwise">Try a purchase decision</button></article></div>
+      <div class="section-head"><div><h3>Decision support, when you need it</h3><p>Choose a gentle next step.</p></div></div>
+      <div class="grid three"><button class="card quick" data-go="spendwise"><i data-lucide="shopping-bag"></i><strong>SpendWise</strong><small>Think through a purchase first.</small></button><button class="card quick" data-go="future"><i data-lucide="arrow-right-left"></i><strong>FutureImpact</strong><small>See what one decision may change.</small></button><button class="card quick" data-go="assistant"><i data-lucide="message-circle"></i><strong>Financial Assistant</strong><small>Explore a practical money question.</small></button></div>
+      <div class="notice" style="margin-top:18px">Opportunity cost means choosing one thing may mean waiting a little longer for another.</div>`;
+    }
+    function moneyView(){
+      const t=totals();
+      return `${intro('Your financial profile','My Money','Keep your money picture simple and up to date.')}
+      <div class="grid four">${metric('Income',rupees(t.income),'Monthly total')}${metric('Regular expenses',rupees(t.expenses),'Monthly total')}${metric('Savings',rupees(t.savings),'Money set aside')}${metric('Emergency reserve',rupees(t.reserve),'For surprises')}</div>
+      <div class="section-head"><div><h3>Update your money picture</h3><p>Small updates help your guidance stay useful.</p></div></div>
+      <form id="money-form" class="card form-grid">${field('Monthly income','income',t.income,'number',true)}${field('Regular monthly expenses','expenses',t.expenses,'number',true)}${field('Current savings','savings',t.savings,'number',true)}${field('Emergency reserve','reserve',t.reserve,'number',true)}<button class="btn primary">Save profile</button></form>
+      <div class="grid two" style="margin-top:16px"><article class="card"><div class="row"><h3>Income sources</h3><button class="btn secondary" data-go="ledger">Manage entries</button></div>${type('income').map(r=>`<div class="row list-row"><span>${esc(r.label)}</span><strong>${rupees(r.amount)}</strong></div>`).join('')||'<p class="small">No income sources listed yet.</p>'}</article>
+      <article class="card"><h3>Upcoming commitments</h3>${type('upcoming').map(r=>`<div class="row list-row"><div><strong>${esc(r.label)}</strong><div class="small">${dateLabel(r.date)}</div></div><strong>${rupees(r.amount)}</strong></div>`).join('')||'<p class="small">No commitments added yet.</p>'}
+      <form id="upcoming-form" class="grid two" style="margin-top:14px">${field('Commitment','commitment-name','','text',true)}${field('Amount','commitment-amount','','number',true)}${field('Due date','commitment-date','','date',true)}<button class="btn primary">Add commitment</button></form></article></div>`;
+    }
+    function ledger(){
+      const list=type(ledgerType).slice().sort((a,b)=>(b.date||'').localeCompare(a.date||'')),categories={};
+      list.forEach(r=>categories[r.category||'Other']=(categories[r.category||'Other']||0)+Number(r.amount||0));
+      return `${intro('Track the details','Income & Expenses','Add what came in and what went out.')}
+      <div class="tabs" style="width:max-content;margin-bottom:16px"><button class="tab ${ledgerType==='income'?'active':''}" data-ledger="income">Income</button><button class="tab ${ledgerType==='expense'?'active':''}" data-ledger="expense">Expenses</button></div>
+      <form id="ledger-form" class="card form-grid">${field('Description','ledger-name','','text',true)}${field('Amount','ledger-amount','','number',true)}<div class="field"><label for="ledger-category">Category</label><select id="ledger-category"><option>Essentials</option><option>Food</option><option>Travel</option><option>Learning</option><option>Allowance</option><option>Scholarship</option><option>Work</option><option>Other</option></select></div>${field('Date','ledger-date',new Date().toISOString().slice(0,10),'date',true)}<button class="btn primary">Add entry</button></form>
+      <div class="grid two" style="margin-top:16px"><article class="card"><h3>Category snapshot</h3>${Object.entries(categories).map(([name,value])=>`<div class="row list-row"><strong>${esc(name)}</strong><span>${rupees(value)}</span></div>`).join('')||'<p class="small">Add an entry to see categories.</p>'}</article>
+      <article class="card"><h3>Recent ${ledgerType}</h3>${list.map(r=>`<div class="row list-row"><div><strong>${esc(r.label)}</strong><div class="small">${esc(r.category)} · ${dateLabel(r.date)}</div></div><div style="text-align:right"><strong>${rupees(r.amount)}</strong><br><button class="btn plain" data-delete="${esc(r.__backendId)}">Remove</button></div></div>`).join('')||'<p class="small">No entries here yet.</p>'}</article></div>`;
+    }
+    function plan(){
+      const t=totals(),contribution=Number(setting('contribution','1800'));
+      const blocks=[['Essentials',t.expenses],['Savings',Math.round(t.income*.15)],['Goals',contribution],['Upcoming commitments',t.upcoming],['Flexible spending',t.available]];
+      return `${intro('A plan that adapts','Budget & Plan','Explore an allocation based on your money picture, not a fixed rule.')}
+      <div class="notice">Essential costs come first. Savings and goals can then guide your flexible spending.</div>
+      <div class="grid three" style="margin-top:16px">${blocks.map(([name,value])=>`<article class="card"><span class="badge">${name}</span><div class="metric">${rupees(value)}</div></article>`).join('')}</div>
+      <form id="plan-form" class="card" style="margin-top:16px"><h3>Adjust your plan</h3><div class="row wrap">${field('Monthly laptop contribution','contribution',contribution,'number',true)}<button class="btn primary">Update plan</button></div></form>`;
+    }
+    function goals(){
+      return `${intro('What you are working toward','Goals','Progress works best when it is visible and flexible.')}
+      <div class="grid two">${type('goal').map(goalCard).join('')||'<article class="card"><h3>No saved goals yet</h3><p class="small">Create a goal below to begin tracking it.</p></article>'}</div>
+      <div class="section-head"><div><h3>Create a goal</h3><p>Short-term or long-term, both count.</p></div></div>
+      <form id="goal-form" class="card form-grid">${field('Goal name','goal-name','','text',true)}${field('Target amount','goal-target','','number',true)}${field('Already saved','goal-saved',0,'number',true)}${field('Target date','goal-date','','date',true)}<button class="btn primary">Create goal</button></form>`;
+    }
+    function analysis(){
+      const t=totals(),s=scenario(),cost=Number(s.amount||0),remaining=t.available-cost;
+      return `<span class="badge">${remaining<1500?'A small pause may help':'Looks manageable with a trade-off'}</span><h3 style="margin-top:14px">${esc(s.label)} · ${rupees(cost)}</h3>
+      <div class="row list-row"><span>Available now</span><strong>${rupees(t.available)}</strong></div><div class="row list-row"><span>After purchase</span><strong>${rupees(remaining)}</strong></div><div class="row list-row"><span>Upcoming commitments</span><strong>${rupees(t.upcoming)}</strong></div>
+      <p class="small">This is an estimate for reflection, not purchase approval.</p><button class="btn secondary" data-go="future">Compare in FutureImpact</button>`;
+    }
+    function spendwise(){
+      const s=scenario();
+      return `${intro('Pause, then choose','SpendWise','Think through a purchase before you make it.')}
+      <div class="grid two"><form id="scenario-form" class="card"><h3>Planned purchase</h3>${field('What are you considering?','scenario-name',s.label,'text',true)}<div style="margin-top:12px">${field('Cost','scenario-cost',s.amount,'number',true)}</div><button class="btn primary" style="margin-top:16px">Check this decision</button></form><article class="card">${analysis()}</article></div>
+      <div class="notice" style="margin-top:16px">You make the final decision based on what matters to you.</div>`;
+    }
+    function future(){
+      const t=totals(),s=scenario(),cost=Number(s.amount||0);
+      const options={now:['Buy now',cost],wait:['Wait two weeks',cost],less:['Lower-cost option',Math.round(cost*.7)]};
+      const [name,selectedCost]=options[comparison];
+      return `${intro('See the gentle ripple effect','FutureImpact','Compare possibilities before making a decision.')}
+      <article class="card row wrap" style="margin-bottom:16px"><div><strong>${esc(s.label)}</strong><div class="small">${rupees(cost)} planned purchase</div></div><div class="tabs">${Object.entries(options).map(([id,[label]])=>`<button class="tab ${comparison===id?'active':''}" data-compare="${id}">${label}</button>`).join('')}</div></article>
+      <div class="grid two">${metric('Available before',rupees(t.available),'After regular costs and commitments')}${metric('Available after '+name.toLowerCase(),rupees(t.available-selectedCost),comparison==='wait'?'Waiting gives you time to revisit this estimate.':'Based on the selected purchase cost')}</div>
+      <div class="notice" style="margin-top:16px">These are educational estimates, not predictions. Waiting does not automatically increase your balance.</div>`;
+    }
+    function assistantView(){
+      return `${intro('Practical learning support','Financial Assistant','Rule-based educational guidance for everyday trade-offs.')}
+      <article class="card" style="max-width:760px"><div class="chat-bubble">Hello! Ask about spending, savings, or a goal. I use your current money picture for simple estimates.</div>
+      ${type('chat').map(r=>`<div class="chat-bubble ${r.status==='user'?'user':''}">${esc(r.label)}</div>`).join('')}
+      <form id="chat-form" class="row wrap" style="margin-top:18px"><div class="field" style="flex:1;min-width:190px"><label for="chat-question">Your question</label><input id="chat-question" class="chat-input" required placeholder="Ask a money question…"></div><button class="btn primary">Send</button></form></article>
+      <p class="small">Educational guidance only; not professional financial advice or a live AI service.</p>`;
+    }
+    function learn(){
+      const lessons=[['Why saving matters','Savings can make surprise costs less stressful.'],['Opportunity cost','Choosing one purchase can mean waiting longer for another goal.'],['Why expenses affect a goal','When regular costs rise, there may be less to add toward a target.'],['Prioritisation','Start with needs, protect a buffer, then choose the goals that matter most.']];
+      return `${intro('Small lessons, useful moments','Insights / Learning','Short explanations connected to everyday decisions.')}
+      <div class="grid two">${lessons.map(([title,body],i)=>`<article class="card"><span class="badge">Lesson ${i+1}</span><h3 style="margin-top:14px">${title}</h3><p class="small">${body}</p><button class="btn secondary" data-lesson="${i}" aria-expanded="false">Learn more</button><p class="small" id="lesson-${i}" hidden>Try this idea next time you update a goal or test a purchase in SpendWise.</p></article>`).join('')}</div>`;
+    }
+    function profile(){
+      const name=personal('name','Aanya Sharma'),email=personal('email',entryEmail||'Not added'),phone=personal('phone','Not added'),college=personal('college','Not added'),reminder=setting('reminders','on')==='on';
+      return `${intro('Your preferences','Profile & Settings','Manage your details and app preferences.')}
+      <div class="grid two"><article class="card"><h3>Account Information</h3>
+      <div class="row" style="justify-content:flex-start;margin:16px 0"><div class="avatar" style="width:58px;height:58px"><i data-lucide="user-round" width="24"></i></div><div><strong>Profile Picture</strong><div class="small">Default avatar</div></div></div>
+      ${editingProfile?`<form id="profile-form" class="grid two">${field('Full Name','profile-name',name,'text',true)}${field('Email Address','profile-email',email==='Not added'?'':email,'email',true)}${field('Phone Number','profile-phone',phone==='Not added'?'':phone,'tel')}${field('College / University','profile-college',college==='Not added'?'':college)}<div class="row wrap"><button class="btn primary">Save Profile</button><button class="btn plain" type="button" data-cancel-profile>Cancel</button></div></form>`:
+      `<div class="list-row"><strong>Full Name</strong><div class="small">${esc(name)}</div></div><div class="list-row"><strong>Email Address</strong><div class="small">${esc(email)}</div></div><div class="list-row"><strong>Phone Number</strong><div class="small">${esc(phone)}</div></div><div class="list-row"><strong>College / University</strong><div class="small">${esc(college)}</div></div><button class="btn primary" style="margin-top:16px" data-edit-profile>Edit Profile</button>`}</article>
+      <article class="card"><h3>Language</h3><div class="field"><label for="app-language">App Language</label><select id="app-language" aria-label="App Language"><option>English</option></select></div>
+      <h3 style="margin-top:25px">Financial Preferences</h3><div class="field"><label for="currency">Preferred Currency</label><select id="currency" aria-label="Preferred Currency"><option>₹ Indian Rupee (INR)</option></select></div>
+      <h3 style="margin-top:25px">Reminders</h3><label class="row" for="reminders" style="justify-content:flex-start"><input id="reminders" type="checkbox" ${reminder?'checked':''}><span>Remind me about upcoming commitments</span></label>
+      <h3 style="margin-top:25px">Account</h3><button class="btn plain" data-exit>Exit demo</button></article></div>`;
+    }
+    function render(){
+      if(!entered)return;
+      nav();
+      $('page-title').textContent=pages.find(p=>p[0]===view)?.[2]||'Income & Expenses';
+      $('header-name').textContent='Hi, '+firstName();
+      const views={dashboard,money:moneyView,ledger,plan,goals,spendwise,future,assistant:assistantView,learn,profile};
+      $('app-content').innerHTML=ready?views[view]():`<article class="card"><h3>Connecting to your Canva Sheet…</h3><p class="small">Your money picture will appear shortly.</p></article>`;
+      lucide.createIcons();
+    }
+    function base(typeName,label,extra={}){return {record_type:typeName,label,amount:0,category:'',date:'',status:'',details:'',saved_amount:0,target_amount:0,target_date:'',settings_value:'',created_at:new Date().toISOString(),...extra}}
+    async function write(record,button,old=null){
+      if(!old&&records.length>=999){toast('The 999-item limit has been reached. Remove an item before adding another.');return false}
+      const previous=button?.textContent;
+      if(button){button.disabled=true;button.textContent='Saving…'}
+      try{
+        const result=old?await window.dataSdk.update({...old,...record}):await window.dataSdk.create(record);
+        if(!result.isOk){toast('Could not save to your Canva Sheet. Please try again.');return false}
+        toast('Saved to your Canva Sheet.');return true;
+      }catch{toast('Could not reach your Canva Sheet. Please try again.');return false}
+      finally{if(button){button.disabled=false;button.textContent=previous}}
+    }
+    async function saveSetting(key,value,button){const old=type('setting').find(r=>r.category===key);return write(base('setting',key,{category:key,settings_value:String(value)}),button,old)}
+    async function saveMoney(e){
+      const button=e.submitter;button.disabled=true;const previous=button.textContent;button.textContent='Saving…';
+      let ok=true;
+      for(const key of ['income','expenses','savings','reserve']){
+        const old=type('money_profile').find(r=>r.category===key);
+        const rec=base('money_profile',key,{category:key,amount:Number($(key).value)});
+        try{const result=old?await window.dataSdk.update({...old,...rec}):await window.dataSdk.create(rec);if(!result.isOk)ok=false}catch{ok=false}
+      }
+      button.disabled=false;button.textContent=previous;
+      toast(ok?'Money profile saved to your Canva Sheet.':'Some figures could not be saved. Please try again.');
+    }
+    async function savePersonal(e){
+      const button=e.submitter;button.disabled=true;const previous=button.textContent;button.textContent='Saving…';let ok=true;
+      for(const key of ['name','email','phone','college']){
+        const value=$('profile-'+key).value.trim();
+        const category='personal_'+key,old=type('setting').find(r=>r.category===category);
+        const rec=base('setting',key,{category,settings_value:value||'Not added'});
+        try{const result=old?await window.dataSdk.update({...old,...rec}):await window.dataSdk.create(rec);if(!result.isOk)ok=false}catch{ok=false}
+      }
+      button.disabled=false;button.textContent=previous;
+      if(ok){editingProfile=false;toast('Profile saved to your Canva Sheet.')}else toast('Some profile details could not be saved.');
+    }
+    function enter(email){entryEmail=email;entered=true;view='dashboard';$('entry').hidden=true;$('application').hidden=false;render()}
+    function exit(){entered=false;view='dashboard';$('application').hidden=true;$('entry').hidden=false;$('entry-form').reset();$('entry-email').focus()}
+    const handler={onDataChanged(data){records=data;ready=true;if(entered)render()}};
+    async function initialize(){
+      try{const result=await window.dataSdk.init(handler);if(!result.isOk){ready=true;toast('Could not connect to your Canva Sheet. Saving is unavailable until you reload.');render()}}
+      catch{ready=true;toast('Could not connect to your Canva Sheet.');render()}
+    }
+    document.addEventListener('DOMContentLoaded',()=>{
+      lucide.createIcons();
+      $('entry-form').addEventListener('submit',e=>{e.preventDefault();if(e.target.reportValidity())enter($('entry-email').value.trim())});
+      initialize();
+    });
+    document.addEventListener('click',async e=>{
+      const b=e.target.closest('button');if(!b)return;
+      if(b.dataset.page)go(b.dataset.page);
+      else if(b.dataset.go)go(b.dataset.go);
+      else if(b.dataset.ledger){ledgerType=b.dataset.ledger;render()}
+      else if(b.dataset.compare){comparison=b.dataset.compare;render()}
+      else if(b.dataset.editProfile!==undefined){editingProfile=true;render()}
+      else if(b.dataset.cancelProfile!==undefined){editingProfile=false;render()}
+      else if(b.dataset.exit!==undefined)exit();
+      else if(b.dataset.lesson!==undefined){const panel=$('lesson-'+b.dataset.lesson);panel.hidden=!panel.hidden;b.setAttribute('aria-expanded',String(!panel.hidden));b.textContent=panel.hidden?'Learn more':'Show less'}
+      else if(b.dataset.addGoal){const old=records.find(r=>r.__backendId===b.dataset.addGoal);if(old)await write({...old,saved_amount:Number(old.saved_amount||0)+500},b,old)}
+      else if(b.dataset.delete){
+        if(b.dataset.confirm!=='yes'){b.dataset.confirm='yes';b.textContent='Confirm remove';return}
+        const old=records.find(r=>r.__backendId===b.dataset.delete);
+        if(!old)return;b.disabled=true;b.textContent='Removing…';
+        try{const result=await window.dataSdk.delete(old);if(!result.isOk){toast('Could not remove the entry.');b.disabled=false;b.textContent='Confirm remove'}}catch{toast('Could not remove the entry.');b.disabled=false;b.textContent='Confirm remove'}
+      }
+    });
+    document.addEventListener('change',async e=>{
+      if(e.target.id==='reminders'){
+        const input=e.target;input.disabled=true;const selected=input.checked;
+        const ok=await saveSetting('reminders',selected?'on':'off');
+        if(!ok)input.checked=!selected;
+        input.disabled=false;
+      }
+    });
+    document.addEventListener('submit',async e=>{
+      if(e.target.id==='entry-form')return;
+      e.preventDefault();const id=e.target.id,b=e.submitter;
+      if(id==='money-form')return saveMoney(e);
+      if(id==='profile-form')return savePersonal(e);
+      if(id==='upcoming-form'){
+        const ok=await write(base('upcoming',$('commitment-name').value.trim(),{amount:Number($('commitment-amount').value),category:'Commitment',date:$('commitment-date').value}),b);
+        if(ok)e.target.reset();
+      }else if(id==='ledger-form'){
+        const ok=await write(base(ledgerType,$('ledger-name').value.trim(),{amount:Number($('ledger-amount').value),category:$('ledger-category').value,date:$('ledger-date').value}),b);
+        if(ok)e.target.reset();
+      }else if(id==='goal-form'){
+        if(Number($('goal-target').value)<=0){toast('Enter a target greater than zero.');return}
+        const ok=await write(base('goal',$('goal-name').value.trim(),{category:'Personal goal',target_amount:Number($('goal-target').value),saved_amount:Number($('goal-saved').value),target_date:$('goal-date').value}),b);
+        if(ok)e.target.reset();
+      }else if(id==='plan-form')await saveSetting('contribution',$('contribution').value,b);
+      else if(id==='scenario-form'){
+        await write(base('scenario',$('scenario-name').value.trim(),{amount:Number($('scenario-cost').value),category:'Purchase'}),b,type('scenario')[0]);
+      }else if(id==='chat-form'){
+        const question=$('chat-question').value.trim();if(!question)return;
+        const ok=await write(base('chat',question,{status:'user'}),b);if(!ok)return;
+        const t=totals(),answer=`You have about ${rupees(t.available)} available after regular costs and commitments. Compare this choice with your savings goal and decide what matters most this month.`;
+        const saved=await write(base('chat',answer,{status:'assistant'}),b);
+        if(saved)e.target.reset();
+      }
+    });
+  </script>
+ 
+</body></html>
